@@ -1,0 +1,6 @@
+1.0.0 -
+  - Removed all animal related files from Fields of Gold and imported here
+
+Upcoming Changes -
+  - Configuration option to set all animal growth times to one year.
+  - Configuration option to divide all animal growth times by x.

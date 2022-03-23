@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmAndFauna", "FarmAndFauna\FarmAndFauna.csproj", "{C99DF1B7-7737-4BFB-A702-2585A1D18B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{73EBE5EA-9D57-48B1-8806-29C017041A10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C99DF1B7-7737-4BFB-A702-2585A1D18B00} = {C99DF1B7-7737-4BFB-A702-2585A1D18B00}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99DF1B7-7737-4BFB-A702-2585A1D18B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99DF1B7-7737-4BFB-A702-2585A1D18B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99DF1B7-7737-4BFB-A702-2585A1D18B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99DF1B7-7737-4BFB-A702-2585A1D18B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EBE5EA-9D57-48B1-8806-29C017041A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EBE5EA-9D57-48B1-8806-29C017041A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EBE5EA-9D57-48B1-8806-29C017041A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EBE5EA-9D57-48B1-8806-29C017041A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27688B6-D014-4AE9-827C-42EBC6ED9EFA}
+	EndGlobalSection
+EndGlobal

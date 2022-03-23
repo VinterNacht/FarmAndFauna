@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "farmandfauna",
+  "name": "Farm and Fauna",
+  "author": "Vinter Nacht",
+  "description": "A Companion Mod to Fields of Gold that extends the maturation time of animals",
+  "version": "1.0.0",
+  "dependency": {
+    "game": ""
+  }
+}

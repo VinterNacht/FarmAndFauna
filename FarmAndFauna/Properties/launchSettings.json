@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FarmAndFauna": {
+      "commandName": "Project",
+      "commandLineArgs": "--addModPath=\"C:\\Users\\Owner\\source\\repos\\FarmAndFauna\\FarmAndFauna\\bin\\Debug\" --addOrigin=\"C:\\Users\\Owner\\source\\repos\\FarmAndFauna\\FarmAndFauna\\assets\""
+    }
+  }
+}

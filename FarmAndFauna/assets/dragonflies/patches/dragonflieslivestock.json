@@ -1,0 +1,181 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 360,
+    "file": "game/entities/land/alpaca-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 12960,
+    "file": "game/entities/land/alpaca-lamb.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/milkable",
+    "file": "game/entities/land/alpaca-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 1200,
+    "file": "game/entities/land/cassowaryegg.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 6480,
+    "file": "game/entities/land/cassowary-chick.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 19440,
+    "file": "game/entities/land/cassowary-youngling.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 43200,
+    "file": "game/entities/land/elephant-baby.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 660,
+    "file": "game/entities/land/elephant-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-/hoursToGrow",
+    "value": 2016,
+    "file": "game/entities/land/hamster-baby.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 22,
+    "file": "game/entities/land/hamster-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/10/aitasks/2/incubationDays",
+    "value": 21,
+    "file": "entities/land/chicken-hen.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/10/aitasks/2/layTime",
+    "value": 50,
+    "file": "entities/land/kiwi-hen.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/hoursToGrow",
+    "value": 25920                                                                                                                                    ,
+    "file": "entities/land/chicken-baby.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/hoursToGrow",
+    "value": 25920,
+    "file": "entities/land/chicken-henpoult.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/hoursToGrow",
+    "value": 25920,
+    "file": "entities/land/chicken-roosterpoult.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 92,
+    "file": "game/entities/land/puma-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 25920,
+    "file": "game/entities/land/puma-cub.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 40,
+    "file": "game/entities/land/squirrel-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 3240,
+    "file": "game/entities/land/squirrel-baby.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 105,
+    "file": "game/entities/land/tiger-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 25920,
+    "file": "game/entities/land/tiger-cub.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/multiplyCooldownDaysMin",
+    "value": 4415,
+    "file": "game/entities/land/tortoise-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/multiplyCooldownDaysMax",
+    "value": 4430,
+    "file": "game/entities/land/tortoise-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 43200,
+    "file": "game/entities/water/crocodile-hatchling.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/hoursToGrow",
+    "value": 1920,
+    "file": "game/entities/water/crocodileegg.json",
+    "dependsOn": [ { "modid": "dragonflies" } ] 
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/pregnancyDays",
+    "value": 240,
+    "file": "game/entities/water/hippo-female.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/hoursToGrow",
+    "value": 43200,
+    "file": "game/entities/water/hippo-baby.json",
+    "dependsOn": [ { "modid": "dragonflies" } ]
+  }
+]
