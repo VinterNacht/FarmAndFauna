@@ -7,7 +7,7 @@ namespace FarmAndFauna.config
     class FarmAndFaunaConfig
     {
         public bool setAnimalGrowthToOneYear = false;
-        public int animalGrowthTimeDivisor = 0;
+        public int animalGrowthTimeMultiplier = 0;
 
         public FarmAndFaunaConfig()
         { }
@@ -19,7 +19,7 @@ namespace FarmAndFauna.config
             FarmAndFaunaConfig defaultConfig = new();
 
             defaultConfig.setAnimalGrowthToOneYear = false;
-            defaultConfig.animalGrowthTimeDivisor = 1;
+            defaultConfig.animalGrowthTimeMultiplier = 1;
             return defaultConfig;
         }
     }
